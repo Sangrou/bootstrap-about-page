@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(255, 251, 247);
+    color: rgb(22, 22, 22);
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+  padding: 10px 0px;
+}
+h1 {
+  font-size: 50px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+h2 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+p {
+  font-size: 18px;
+  padding-top: 10px;
+}
+.mainTxt{
+  text-indent: 4ch;
+}
+ol{
+  font-size: 18px;
+}
+a{
+  color: brown;
+}
+
+/* fade in styling */
+img {
+  opacity: 0;
+  transform: translate(0, 20px); transition: all 1s;
+}
+  img.visible { 
+     opacity: 1;
+     transform: translate(0, 0); 
+}
